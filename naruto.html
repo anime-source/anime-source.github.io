@@ -1,1 +1,91 @@
-ttrtt
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANIME SOURCE</title>
+
+    <!--Meta tags-->
+    <!-- Primary Meta Tags -->
+    <title>Naruto - ANIME SOURCE</title>
+    <meta name="title" content="Naruto - ANIME SOURCE">
+    <meta name="description" content="Naruto, zdánlivě obyčejný chlapec, který však disponuje několika výjimečnými a nezvyklými schopnostmi. Za prvé je neskutečně zbrklý a také mnohdy velice otravný, za druhé v sobě třímá moc devítiocasé lišky, která v době jeho zrození ohrožovala jeho vesnici. Obě tyto vlastnosti z něj dělají hrdinu stejnojmenného seriálu, ze kterého se stala mánie o jedenácti řadách, třech filmech a dalším seriálem NARUTO: SHIPPÛDEN. Jeho popularita má ale své stinné stránky - stanice Jetix o něj dostala zájem, nicméně jelikož se jedná o stanici s pořady pro děti, musely být z Naruta vystřihnuty mnohdy i celé scény, což ho znehodnocuje.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anime-source.github.io/naruto">
+    <meta property="og:title" content="Naruto - ANIME SOURCE">
+    <meta property="og:description" content="Naruto, zdánlivě obyčejný chlapec, který však disponuje několika výjimečnými a nezvyklými schopnostmi. Za prvé je neskutečně zbrklý a také mnohdy velice otravný, za druhé v sobě třímá moc devítiocasé lišky, která v době jeho zrození ohrožovala jeho vesnici. Obě tyto vlastnosti z něj dělají hrdinu stejnojmenného seriálu, ze kterého se stala mánie o jedenácti řadách, třech filmech a dalším seriálem NARUTO: SHIPPÛDEN. Jeho popularita má ale své stinné stránky - stanice Jetix o něj dostala zájem, nicméně jelikož se jedná o stanici s pořady pro děti, musely být z Naruta vystřihnuty mnohdy i celé scény, což ho znehodnocuje.">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://anime-source.github.io/naruto">
+    <meta property="twitter:title" content="Naruto - ANIME SOURCE">
+    <meta property="twitter:description" content="Naruto, zdánlivě obyčejný chlapec, který však disponuje několika výjimečnými a nezvyklými schopnostmi. Za prvé je neskutečně zbrklý a také mnohdy velice otravný, za druhé v sobě třímá moc devítiocasé lišky, která v době jeho zrození ohrožovala jeho vesnici. Obě tyto vlastnosti z něj dělají hrdinu stejnojmenného seriálu, ze kterého se stala mánie o jedenácti řadách, třech filmech a dalším seriálem NARUTO: SHIPPÛDEN. Jeho popularita má ale své stinné stránky - stanice Jetix o něj dostala zájem, nicméně jelikož se jedná o stanici s pořady pro děti, musely být z Naruta vystřihnuty mnohdy i celé scény, což ho znehodnocuje.">
+    <meta property="twitter:image" content="">
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--Raleway Font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <style>
+        .jumbotron-bg{
+            background-color: #040404;
+            text-align: center;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03zm32.284 0L49.8 6.485 48.384 7.9l-7.9-7.9h2.83zM16.686 0L10.2 6.485 11.616 7.9l7.9-7.9h-2.83zm20.97 0l9.315 9.314-1.414 1.414L34.828 0h2.83zM22.344 0L13.03 9.314l1.414 1.414L25.172 0h-2.83zM32 0l12.142 12.142-1.414 1.414L30 .828 17.272 13.556l-1.414-1.414L28 0h4zM.284 0l28 28-1.414 1.414L0 2.544V0h.284zM0 5.373l25.456 25.455-1.414 1.415L0 8.2V5.374zm0 5.656l22.627 22.627-1.414 1.414L0 13.86v-2.83zm0 5.656l19.8 19.8-1.415 1.413L0 19.514v-2.83zm0 5.657l16.97 16.97-1.414 1.415L0 25.172v-2.83zM0 28l14.142 14.142-1.414 1.414L0 30.828V28zm0 5.657L11.314 44.97 9.9 46.386l-9.9-9.9v-2.828zm0 5.657L8.485 47.8 7.07 49.212 0 42.143v-2.83zm0 5.657l5.657 5.657-1.414 1.415L0 47.8v-2.83zm0 5.657l2.828 2.83-1.414 1.413L0 53.456v-2.83zM54.627 60L30 35.373 5.373 60H8.2L30 38.2 51.8 60h2.827zm-5.656 0L30 41.03 11.03 60h2.828L30 43.858 46.142 60h2.83zm-5.656 0L30 46.686 16.686 60h2.83L30 49.515 40.485 60h2.83zm-5.657 0L30 52.343 22.343 60h2.83L30 55.172 34.828 60h2.83zM32 60l-2-2-2 2h4zM59.716 0l-28 28 1.414 1.414L60 2.544V0h-.284zM60 5.373L34.544 30.828l1.414 1.415L60 8.2V5.374zm0 5.656L37.373 33.656l1.414 1.414L60 13.86v-2.83zm0 5.656l-19.8 19.8 1.415 1.413L60 19.514v-2.83zm0 5.657l-16.97 16.97 1.414 1.415L60 25.172v-2.83zM60 28L45.858 42.142l1.414 1.414L60 30.828V28zm0 5.657L48.686 44.97l1.415 1.415 9.9-9.9v-2.828zm0 5.657L51.515 47.8l1.414 1.413 7.07-7.07v-2.83zm0 5.657l-5.657 5.657 1.414 1.415L60 47.8v-2.83zm0 5.657l-2.828 2.83 1.414 1.413L60 53.456v-2.83zM39.9 16.385l1.414-1.414L30 3.658 18.686 14.97l1.415 1.415 9.9-9.9 9.9 9.9zm-2.83 2.828l1.415-1.414L30 9.313 21.515 17.8l1.414 1.413 7.07-7.07 7.07 7.07zm-2.827 2.83l1.414-1.416L30 14.97l-5.657 5.657 1.414 1.415L30 17.8l4.243 4.242zm-2.83 2.827l1.415-1.414L30 20.626l-2.828 2.83 1.414 1.414L30 23.456l1.414 1.414zM56.87 59.414L58.284 58 30 29.716 1.716 58l1.414 1.414L30 32.544l26.87 26.87z' fill='%23404040' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+        body{
+            margin: 0;
+            background-color: #040404;
+        }
+        h2{
+            font-family: 'Raleway', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 350%;
+        }
+        footer{
+            font-family: 'Raleway', sans-serif;
+            background-color: #060606;
+            color: white;
+            font-size: 100%;
+            text-align: center;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .anime{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Jumbotron-->
+    <div class="jumbotron-bg jumbotron jumbotron-fluid">
+        <div class="container">
+            <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="50%">
+                <style>
+                    tspan { white-space:pre }
+                    .shp0 { fill: #ffffff } 
+                </style>
+                <path id="ANIME SOURCE " class="shp0" d="M231.02,310l57.55,-165.43h41.47l57.32,165.43h-46.13l-10.02,-32.39h-44.04l-9.79,32.39zM293.93,247.32h30.06l-14.68,-51.26zM512.25,310l-65.71,-81.32v81.32h-45.43v-165.43h35.42l66.4,84.11v-84.11h45.44v165.43zM622.22,310h-45.43v-165.43h45.43zM821.2,310h-45.44v-87.14l-27.73,61.28h-24.23l-27.73,-61.28v87.14h-45.43v-165.43h49.63l35.65,77.82l35.88,-77.82h49.4zM895.07,270.39h72.46v39.61h-117.9v-165.43h115.8v39.61h-70.37v23.3h60.11v36.81h-60.11zM336.46,367.37l-15.29,29.3c-3.64,-2.18 -7.4,-4.13 -11.28,-5.82c-3.28,-1.46 -6.98,-2.79 -11.1,-4c-4,-1.33 -7.95,-2 -11.83,-2c-3.15,0 -5.7,0.49 -7.64,1.46c-1.82,0.97 -2.73,2.61 -2.73,4.91c0,1.7 0.55,3.09 1.64,4.19c1.09,1.09 2.67,2.12 4.73,3.09c2.06,0.85 4.55,1.7 7.46,2.55c3.03,0.85 6.43,1.88 10.19,3.09c5.95,1.82 11.28,3.82 16.02,6.01c4.85,2.18 8.98,4.79 12.38,7.83c3.4,2.91 6.01,6.49 7.83,10.74c1.82,4.25 2.73,9.4 2.73,15.47c0,7.77 -1.46,14.32 -4.37,19.66c-2.79,5.22 -6.55,9.4 -11.28,12.56c-4.61,3.15 -9.89,5.46 -15.83,6.92c-5.82,1.33 -11.71,2 -17.65,2c-4.73,0 -9.59,-0.36 -14.56,-1.09c-4.97,-0.73 -9.95,-1.76 -14.92,-3.09c-4.85,-1.33 -9.59,-2.91 -14.2,-4.73c-4.49,-1.82 -8.68,-3.88 -12.56,-6.19l15.29,-31.12c4.25,2.67 8.68,5.04 13.29,7.1c3.88,1.82 8.25,3.46 13.1,4.91c4.97,1.46 10.01,2.18 15.11,2.18c3.88,0 6.55,-0.49 8.01,-1.46c1.58,-1.09 2.37,-2.49 2.37,-4.19c0,-1.82 -0.79,-3.34 -2.37,-4.55c-1.46,-1.33 -3.52,-2.49 -6.19,-3.46c-2.67,-0.97 -5.76,-1.94 -9.28,-2.91c-3.4,-0.97 -7.04,-2.12 -10.92,-3.46c-5.7,-1.94 -10.62,-4 -14.74,-6.19c-4.13,-2.31 -7.52,-4.85 -10.19,-7.64c-2.67,-2.91 -4.67,-6.19 -6.01,-9.83c-1.21,-3.64 -1.82,-7.83 -1.82,-12.56c0,-7.16 1.27,-13.47 3.82,-18.93c2.67,-5.46 6.25,-10.01 10.74,-13.65c4.49,-3.64 9.59,-6.37 15.29,-8.19c5.82,-1.94 11.95,-2.91 18.38,-2.91c4.73,0 9.34,0.49 13.83,1.46c4.49,0.85 8.8,2 12.92,3.46c4.25,1.33 8.19,2.85 11.83,4.55c3.64,1.58 6.92,3.09 9.83,4.55zM413.45,484.76c-9.83,0 -18.75,-1.88 -26.75,-5.64c-8.01,-3.76 -14.86,-8.68 -20.57,-14.74c-5.7,-6.19 -10.13,-13.23 -13.29,-21.11c-3.15,-7.89 -4.73,-16.02 -4.73,-24.39c0,-8.49 1.64,-16.68 4.91,-24.57c3.28,-7.89 7.83,-14.8 13.65,-20.75c5.95,-6.07 12.92,-10.86 20.93,-14.38c8.13,-3.64 16.99,-5.46 26.57,-5.46c9.83,0 18.75,1.88 26.75,5.64c8.01,3.76 14.86,8.74 20.57,14.92c5.7,6.19 10.07,13.23 13.1,21.11c3.15,7.89 4.73,15.96 4.73,24.21c0,8.49 -1.64,16.68 -4.91,24.57c-3.28,7.77 -7.83,14.68 -13.65,20.75c-5.82,5.95 -12.8,10.74 -20.93,14.38c-8.01,3.64 -16.8,5.46 -26.39,5.46zM384.15,419.24c0,4.37 0.61,8.61 1.82,12.74c1.21,4 3.03,7.58 5.46,10.74c2.43,3.15 5.46,5.7 9.1,7.64c3.76,1.94 8.19,2.91 13.29,2.91c5.1,0 9.52,-0.97 13.29,-2.91c3.76,-2.06 6.79,-4.67 9.1,-7.83c2.43,-3.28 4.19,-6.98 5.28,-11.1c1.21,-4.13 1.82,-8.31 1.82,-12.56c0,-4.37 -0.61,-8.55 -1.82,-12.56c-1.21,-4.13 -3.09,-7.7 -5.64,-10.74c-2.43,-3.15 -5.52,-5.64 -9.28,-7.46c-3.64,-1.94 -7.95,-2.91 -12.92,-2.91c-5.1,0 -9.52,0.97 -13.29,2.91c-3.64,1.94 -6.67,4.55 -9.1,7.83c-2.43,3.15 -4.25,6.79 -5.46,10.92c-1.09,4 -1.64,8.13 -1.64,12.38zM550.86,453.27c4.13,0 7.64,-0.91 10.56,-2.73c2.91,-1.82 5.28,-4.19 7.1,-7.1c1.82,-3.03 3.15,-6.49 4,-10.37c0.85,-3.88 1.27,-7.95 1.27,-12.19v-66.43h35.49v66.43c0,8.98 -1.15,17.41 -3.46,25.3c-2.31,7.77 -5.88,14.5 -10.74,20.2c-4.85,5.7 -10.98,10.19 -18.38,13.47c-7.28,3.28 -15.89,4.91 -25.84,4.91c-10.31,0 -19.17,-1.7 -26.57,-5.1c-7.28,-3.52 -13.29,-8.19 -18.02,-14.01c-4.73,-5.82 -8.19,-12.56 -10.37,-20.2c-2.18,-7.77 -3.28,-15.96 -3.28,-24.57v-66.43h35.49v66.43c0,4.25 0.42,8.37 1.27,12.38c0.85,3.88 2.18,7.34 4,10.37c1.82,2.91 4.13,5.28 6.92,7.1c2.91,1.7 6.43,2.55 10.56,2.55zM665.15,483.67h-35.49v-129.22h59.33c6.31,0 12.13,1.33 17.47,4c5.34,2.55 9.89,5.95 13.65,10.19c3.88,4.13 6.92,8.92 9.1,14.38c2.18,5.34 3.28,10.74 3.28,16.2c0,7.52 -1.64,14.56 -4.91,21.11c-3.28,6.43 -7.83,11.71 -13.65,15.83l27.3,47.5h-40.04l-22.75,-39.68h-13.29zM665.15,385.39v27.66h22.39c2.18,0 4.19,-1.21 6.01,-3.64c1.94,-2.43 2.91,-5.82 2.91,-10.19c0,-4.49 -1.09,-7.89 -3.28,-10.19c-2.18,-2.43 -4.37,-3.64 -6.55,-3.64zM743.78,417.97c0,-7.89 1.46,-15.65 4.37,-23.3c3.03,-7.64 7.4,-14.5 13.1,-20.57c5.7,-6.07 12.62,-10.98 20.75,-14.74c8.13,-3.76 17.41,-5.64 27.85,-5.64c12.5,0 23.3,2.61 32.4,7.83c9.22,5.1 16.08,11.89 20.57,20.38l-27.12,19.29c-1.21,-3.15 -2.85,-5.76 -4.91,-7.83c-1.94,-2.06 -4.13,-3.7 -6.55,-4.91c-2.43,-1.21 -4.97,-2.06 -7.64,-2.55c-2.55,-0.49 -5.04,-0.73 -7.46,-0.73c-5.1,0 -9.52,1.03 -13.29,3.09c-3.64,1.94 -6.67,4.55 -9.1,7.83c-2.31,3.15 -4.06,6.79 -5.28,10.92c-1.09,4 -1.64,8.01 -1.64,12.01c0,4.49 0.67,8.8 2,12.92c1.33,4.13 3.28,7.77 5.82,10.92c2.55,3.15 5.64,5.7 9.28,7.64c3.76,1.82 7.95,2.73 12.56,2.73c2.43,0 4.91,-0.24 7.46,-0.73c2.55,-0.61 4.97,-1.52 7.28,-2.73c2.43,-1.33 4.55,-2.97 6.37,-4.91c1.94,-2.06 3.46,-4.55 4.55,-7.46l28.94,17.29c-1.94,4.73 -4.91,8.98 -8.92,12.74c-3.88,3.76 -8.37,6.92 -13.47,9.46c-4.97,2.55 -10.37,4.49 -16.2,5.82c-5.7,1.33 -11.28,2 -16.74,2c-9.59,0 -18.38,-1.88 -26.39,-5.64c-7.89,-3.88 -14.74,-8.98 -20.57,-15.29c-5.7,-6.31 -10.13,-13.47 -13.29,-21.48c-3.15,-8.01 -4.73,-16.14 -4.73,-24.39zM912.13,452.73h56.6v30.94h-92.09v-129.22h90.45v30.94h-54.96v18.2h46.96v28.76h-46.96z" />
+                </svg></a>
+        </div>
+    </div>
+    <div>
+        <img src="naruto.jpg" class="anime rounded">
+    </div>
+    <footer>
+        <p>
+        &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> ANIME SOURCE. Všechna Práva Vyhrazena.
+        <br/>
+        Powered by Github Pages.
+        </p>
+    </footer>
+</body>
+</html>
